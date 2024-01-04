@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(54, 62, 70);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    width: 30rem;
+    margin: 10rem;
+    border-radius: 10px;
+    background-color: #262626;
+}
+
+
+#quote{
+    height: 6rem;
+    margin-top: 20px;
+}
+
+.generateBtn{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: deepskyblue;
+    cursor: pointer;
+    font-size: 18px; 
+}
